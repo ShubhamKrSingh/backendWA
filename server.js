@@ -1,12 +1,7 @@
 import express from "express";
 import "dotenv/config";
-import cors from "cors";
 
 const app = express();
-
-app.use(
-  cors({ origin: "https://vercel.com/shubham-singhs-projects/frontend" })
-);
 
 const port = process.env.PORT || 3000;
 
