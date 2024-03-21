@@ -2,7 +2,7 @@ import express from "express";
 import "dotenv/config";
 import cors from "cors";
 
-const app = exprsess();
+const app = express();
 
 var corsOptions = {
   origin: "https://vercel.com/shubham-singhs-projects/frontend",
